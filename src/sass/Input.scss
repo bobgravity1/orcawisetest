@@ -1,0 +1,54 @@
+@import "./variables.scss";
+@import "./typography.scss";
+
+
+.input {
+
+}
+
+.input-main:focus {
+  border: 3px solid $primary-color-gray-dark;
+  box-shadow: none;
+}
+
+.input{
+  &-icon{
+    position:relative;
+    right:1.4em;
+    top:28%;
+    height:20px;
+    margin-right: 10px;
+    color:$primary-color-blue-dark;
+
+  }
+  &-main{
+      box-shadow: $shadow;
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 3px solid #fff;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  border-radius: 5px;
+  width:22vw;
+  padding:.6em .5em;
+  color:$primary-color-blue-dark;
+  &-text-label{
+    -webkit-font-smoothing: antialiased;
+    color: white;
+    font-weight:600;
+    font-family:$secondary-font;
+    font-size:1.3rem;
+    margin-bottom:.2em;
+  }
+  }
+  &-main-container{
+      display:flex;
+      flex-direction: column;
+  }
+}
+
+.input-main-logo-container{
+  display:flex;
+}
