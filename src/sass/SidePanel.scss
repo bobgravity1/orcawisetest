@@ -3,31 +3,30 @@
 
 .sidepanel{
   &-logo{
-    height:5vw;
-    width:13vw;
-    margin-bottom: 2em;
-    margin-top: .5em;
-    border-radius: 5px;
-    padding:.3em;
-
+    height:5%;
+    width:100%;
+    border-radius: 0px;
+    margin-top: 7vh;
   }
   &-container{
-    margin: 1em 0px;
-     margin-left: 1em;
-color:red;
+
+    margin: 0em 0em;
+
+background-color: $primary-color-gray-light;
+height:100vh;
+width:18vw;
+  box-shadow: $shadow;
   }
   &-text{
     color:white;
   }
   &-main{
-    box-shadow: $shadow;
+    margin-top: 5vh;
     display:flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    background-color: #fff;
-    height:680px;
-    border-radius: 5px;
-    width:15vw;
+
   }
 }
 
@@ -38,11 +37,9 @@ color:red;
   padding-right: .4em;
 }
 &-item{
-margin-left: 1em;
 display:flex;
 margin: 3em 0px;
 justify-content: flex-start;
-width:10vw;
 font-size:1.2em;
 -webkit-font-smoothing: antialiased;
 color:$primary-color-blue-dark;

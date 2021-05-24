@@ -8,7 +8,7 @@ const Input = ({icon, children, label}) => {
     <div className='input-main-container'>
     <label className='input-main-text-label'>{label}</label>
     <div className='input-main-logo-container'>
-    <input className='x input-main'/>
+    <input className='input-main'/>
     <div className='input-icon'>{icon}</div>
 
     </div>

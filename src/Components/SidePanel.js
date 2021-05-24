@@ -12,9 +12,10 @@ import { RiBuildingLine } from "react-icons/ri";
 const SidePanel = () => {
   return (
     <div className='sidepanel-container'>
-    <div className='sidepanel-main'>
     <img alt='whale' className='sidepanel-logo' src={logo} />
-    <ul classname='c options-container'>
+    <div className='sidepanel-main'>
+
+    <ul classname='options-container'>
     <li className='options-item'><div className='options-icon'><GoGraph /></div> Graphs</li>
     <li className='options-item'><div className='options-icon'><VscSourceControl /></div>Sources</li>
     <li className='options-item'><div className='options-icon'><DiAtom /></div>Overview</li>
